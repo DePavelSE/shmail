@@ -1,0 +1,73 @@
+@font-face {
+    font-family: PECHKIN; /* имя шрифта для CSS правил */
+    src: local("PECHKIN"), /* проверяем наличие шрифта в ОС пользователя */
+         url(font/PECHKIN_.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+#forma{
+	  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+	width:800px;
+	height:408px;
+	background-image:url("img/konvertik.jpg");	
+}
+#from{
+	position:absolute;
+	margin-left:30px;
+	margin-top:25px;
+}
+.email_from, .subjinput{
+	border-top-style:none;	
+	border-left-style:none;
+	border-right-style:none;
+	width:200px;
+}
+#intxt{
+	position:absolute;
+	margin-left:30px;
+	margin-top:80px;
+}
+#subj{	
+}
+.subjinput{
+	margin-left:5px;
+	width:395px;
+}
+#txtarea{
+	margin-top:4px;
+}
+#to{
+	position:absolute;
+	margin-left:500px;
+	margin-top:220px;
+
+}
+.emailto, .in_date, .in_time{
+	
+	border-top-style:none;	
+	border-left-style:none;
+	border-right-style:none;
+	width:175px;
+}
+
+#btn_go{
+	height:80px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:290px;
+	background-image:url("img/btn_go.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+.btn{
+	margin-top:20px;
+	width:240px;
+	height:50px;
+	font-size:20px;
+	
+
+	
+}
